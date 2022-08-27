@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin:0;
+    outline: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: #111;
+    font-family: 'Poppins','sens-serif';
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.navbar{
+    position: relative;
+    width: 80%;
+    height: 10vh;
+    padding: 35px  ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    
+}
+
+.line{
+    position: absolute;
+    border-left: 1px solid #fff;
+    height: 50px;
+    margin-left:-70%;
+    
+}
+
+.grow-list{
+    margin-left:110px;
+    margin-right: auto; 
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    font-style: 'Montserrat','Poppins';
+    gap: 60px;
+} 
+
+.btn-div{
+    margin-left:auto;
+    margin-right: -250px;
+}
+
+.button-small{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    font-size:16px;
+    border-radius: 8px;
+    background-color: #BA0CC5;
+    
+}
+
+/* hero section */
+
+.hero{
+    width: 100%;
+    background:url(./assets/bg.png);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+    
+    
+}
+.hero-heading{
+     background: transparent;
+     font-size: 60px;
+     text-align: center;
+     font-weight: 1000;
+     margin: 0px 300px;
+}
+
+.hero-description{
+    text-align: center;
+    margin: 0px 350px;
+    
+    margin-bottom: 20px;
+    background-color: transparent;
+    font-weight: 1200;
+    font-size: 23px;
+}
+
+
+.button-large{
+    width: 300px;
+    height: 60px;
+    border: 0;
+    font-size:22px;
+    border-radius: 8px;
+    background-color: #BA0CC5;    
+    font-weight: 1000;
+    word-spacing: .2cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
